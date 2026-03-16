@@ -17,7 +17,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a Computer Science undergraduate at [LUMS](https://lums.edu.pk), working toward a PhD application in December 2026. Driven by a deep enthusiasm for research, I am broadly curious across many areas of computer science — from systems and distributed computing to machine learning and AI alignment.
+I am a Computer Science undergraduate at [LUMS](https://lums.edu.pk), working toward a PhD application in December 2026. Driven by a deep enthusiasm for research, I am broadly curious across many areas of computer science — from systems and distributed computing to machine learning and AI alignment. 
 
 My current work sits at the intersection of **LLM-based systems**, **preference optimization**, and **AI-driven automation**. I collaborate with [Dr. Ali Anwar](https://scholar.google.com/citations?user=o3eOVbgAAAAJ&hl=en) at the University of Minnesota, under whose mentorship I have developed two research projects currently under review at top venues:
 
