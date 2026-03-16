@@ -5,7 +5,7 @@ permalink: /
 subtitle: CS Undergraduate · <a href='https://lums.edu.pk'>LUMS</a> 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: _posts/prof_pic.jpg
   image_circular: false
   more_info: >
     <p>27100111@lums.edu.pk</p>
