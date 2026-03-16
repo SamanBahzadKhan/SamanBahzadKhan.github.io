@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: CS Undergraduate · <a href='https://lums.edu.pk'>LUMS</a> · Lahore, Pakistan
+subtitle: CS Undergraduate · <a href='https://lums.edu.pk'>LUMS</a> 
 profile:
   align: right
   image: assets/img/prof_pic.jpg
   image_circular: false
   more_info: >
     <p>27100111@lums.edu.pk</p>
-    <p>Lahore, Pakistan</p>
 selected_papers: true
 social: true
 announcements:
