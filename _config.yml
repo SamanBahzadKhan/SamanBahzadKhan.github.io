@@ -4,7 +4,7 @@
 
 title:                     # leave blank so it uses your full name
 first_name: Saman
-middle_name:                    # leave empty
+middle_name: Bahzad                  # leave empty
 last_name: Khan
 contact_note: >
   Feel free to reach out via email — I am always open to research discussions and collaborations.
@@ -17,7 +17,7 @@ keywords: LLM, preference optimization, DevOps, AI, LUMS, computer science
 lang: en
 icon: ⚛️
 
-url: https://samanbahzadkhan.github.io   # replace yourusername with your actual GitHub username
+url: https://SamanBahzadKhan.github.io   # replace yourusername with your actual GitHub username
 baseurl:                              # leave completely empty (no value, no quotes)
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
