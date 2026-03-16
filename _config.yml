@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:                     # leave blank so it uses your full name
+title: blank                    # leave blank so it uses your full name
 first_name: Saman
 middle_name: Bahzad                  # leave empty
 last_name: Khan
