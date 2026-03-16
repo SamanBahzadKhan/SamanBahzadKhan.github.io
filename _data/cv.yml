@@ -1,189 +1,107 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Saman Bahzad Khan
+  label: CS Undergraduate & Researcher
+  email: 27100111@lums.edu.pk
+  location: 
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Computer Science undergraduate at LUMS, working on LLM-based systems, preference optimization, and AI-driven automation. Working toward a PhD application in December 2026.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: saman-khan-546836302
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Lahore University of Management Sciences (LUMS)
+        location: Lahore, Pakistan
+        url: https://lums.edu.pk
+        area: Computer Science
+        studyType: BS
+        start_date: 2023
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - "Relevant Coursework: Data Structures & Algorithms, AI/ML, Generative AI, Network Centric Computing, Operating Systems, Topics in LLMs"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: University of Minnesota (Remote)
+        position: Research Collaborator
+        location: Remote
+        start_date: 2024
+        end_date: present
+        summary: "Mentor: Dr. Ali Anwar"
         highlights:
-          - Relativity
-          - Description 2.
+          - "LADs: Leveraging LLMs for AI-Driven DevOps (First Author, submitted to ICDCS '26) — agentic LLM framework automating the configuration-to-deployment pipeline through a self-refining feedback loop; improved deployment success from ≤22% to 68% across 180 tasks."
+          - "Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization for Prompt Engineering (submitted to ACL ARR) — DPO variant with semantic consistency weights; achieved 8-12% higher CLIP similarity and 5-9% higher human preference scores over standard DPO."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Systems Limited
+        position: Software Engineering Intern
+        location: Lahore, Pakistan
+        start_date: 2025-06
+        end_date: 2025-07
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Implemented an end-to-end ERP pipeline for a construction company, automating procurement, project tracking, and reporting using Microsoft Dynamics and the Microsoft enterprise application suite.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "LADs: Leveraging LLMs for AI-Driven DevOps"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Saman Bahzad Khan
+          - et al.
+        publisher: "ICDCS 2026 (Under Review)"
+        releaseDate: 2025
+        summary: An agentic LLM framework that automates the full configuration-to-deployment pipeline through a self-refining feedback loop, improving deployment success from ≤22% to 68% across distributed systems.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization for Prompt Engineering"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Anas Mohamed
+          - Azal Ahmad Khan
+          - Xinran Wang
+          - Ahmad Faraz Khan
+          - Shuwen Ge
+          - Saman Bahzad Khan
+          - Ayaan Ahmad
+          - Ali Anwar
+        publisher: "ACL ARR (Under Review)"
+        releaseDate: 2025
+        summary: A DPO variant that injects per-sample semantic consistency weights to prevent optimized prompts from drifting from user intent, achieving 8-12% higher CLIP similarity over standard DPO.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming Languages
+        icon: fa-solid fa-code
+        keywords: "Python, C++, C, Java, HTML, Assembly, MATLAB"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Frameworks & Tools
+        icon: fa-solid fa-wrench
+        keywords: "PyTorch, TensorFlow, Hugging Face, LangChain, Ollama, scikit-learn, Pandas, Git, Docker, SQL, LaTeX, Linux/Ubuntu"
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    Volunteer:
+      - company: LUMS Career Services Office
+        position: Campus Ambassador
+        location: Lahore, Pakistan
+        start_date: 2025-02
+        end_date: 2025-02
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Helped convene and organize the LUMS Annual Career Fair for 20+ employer partners and 1,000+ student attendees.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - company: LUMS Women In Computing Society
+        position: Member
+        location: Lahore, Pakistan
+        start_date: 2023
+        end_date: 2024
+        highlights:
+          - Organized Girls' Coding Camp, Women in Computing Hackathon, and Grad App Wars.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - company: LUMS SPADES
+        position: Member Media
+        location: Lahore, Pakistan
+        start_date: 2023
+        end_date: 2024
+        highlights:
+          - Assisted in organizing Hackathons and PsiFi (400+ students); covered events and interviewed start-up CEOs for Radio LUMS × SPADES.
+
+      - company: SPADES Smog Detection Project
+        position: Research Volunteer
+        location: Lahore, Pakistan
+        start_date: 2025-01
+        end_date: 2025-01
+        highlights:
+          - Conducted data-driven air quality assessments across Lahore integrating PM2.5 readings with GIS mapping and Python pipelines.
