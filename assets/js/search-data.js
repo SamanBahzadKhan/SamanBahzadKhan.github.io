@@ -395,12 +395,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -435,6 +430,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-lads",
+          title: 'LADs',
+          description: "Six-agent framework for configuration, deployment, monitoring, and repair. First author, MLSys 2027 submission.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lads/";
             },},{id: "projects-sem-dpo",
           title: 'Sem-DPO',
           description: "Mitigating semantic inconsistency in preference optimization. Published at ACL 2026.",
