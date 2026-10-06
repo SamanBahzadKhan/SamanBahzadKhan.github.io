@@ -84,7 +84,8 @@ cv:
           - Built an ERP workflow automating procurement, project tracking, and reporting for a construction company using Microsoft Dynamics.
 
     Publications:
-      - title: "Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization"
+      - title: "Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization for Prompt Engineering"
+        url: https://aclanthology.org/2026.findings-acl.1184/
         authors:
           - Anas Mohamed
           - Azal Ahmad Khan
@@ -94,11 +95,12 @@ cv:
           - Saman Bahzad Khan
           - Ayaan Ahmad
           - Ali Anwar
-        publisher: ACL 2026
+        publisher: Findings of ACL 2026
         releaseDate: 2026
         summary: A weighted Direct Preference Optimization approach that reduces semantic drift during automated prompt optimization, with 8–12% higher CLIP similarity and 5–9% higher human-preference scores over standard DPO.
 
       - title: "LADs: Leveraging LLMs for AI-Driven DevOps"
+        url: /assets/pdf/LADS.pdf
         authors:
           - Saman Bahzad Khan
           - et al.
