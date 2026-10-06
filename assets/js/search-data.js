@@ -472,6 +472,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/saman-khan-546836302", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/SamanBahzadKhan", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
