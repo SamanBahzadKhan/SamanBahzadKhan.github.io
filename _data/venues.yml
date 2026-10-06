@@ -7,3 +7,11 @@
 
 "Vision":
   color: "#009f36"
+
+"ACL":
+  url: https://www.aclweb.org/
+  color: "#9b2335"
+
+"MLSys":
+  url: https://mlsys.org/
+  color: "#0f6e56"
