@@ -1,29 +1,74 @@
 ---
 ---
 
-@string{icdcs = {IEEE International Conference on Distributed Computing Systems,}}
 @string{acl = {Association for Computational Linguistics,}}
+@string{mlsys = {Conference on Machine Learning and Systems,}}
+
+@inproceedings{khan2025semdpo,
+  title        = {Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization for Prompt Engineering},
+  author       = {Mohamed, Anas and Khan, Azal Ahmad and Wang, Xinran and Khan, Ahmad Faraz and Ge, Shuwen and Khan, Saman Bahzad and Ahmad, Ayaan and Anwar, Ali},
+  booktitle    = {Findings of the Association for Computational Linguistics: ACL 2026},
+  year         = {2026},
+  pages        = {23656--23674},
+  doi          = {10.18653/v1/2026.findings-acl.1184},
+  url          = {https://aclanthology.org/2026.findings-acl.1184/},
+  abstract     = {Sem-DPO is a weighted Direct Preference Optimization approach that reduces semantic drift during automated prompt optimization and establishes a theoretical bound on drift in preference-tuned prompt generators. Across three benchmarks and three language-model backbones, it improves CLIP similarity by 8--12% and human-preference scores by 5--9% over standard DPO, and is preferred in 82.2% of pairwise human evaluations.},
+  selected     = {true},
+  bibtex_show  = {true},
+  abbr         = {ACL},
+  html         = {https://aclanthology.org/2026.findings-acl.1184/},
+  pdf          = {https://aclanthology.org/2026.findings-acl.1184.pdf}
+}
 
 @inproceedings{khan2025lads,
   title        = {LADs: Leveraging LLMs for AI-Driven DevOps},
   author       = {Khan, Saman Bahzad and others},
-  booktitle    = {IEEE International Conference on Distributed Computing Systems (ICDCS)},
-  year         = {2026},
-  note         = {Under Review},
-  abstract     = {LADs is an agentic LLM framework that automates the full configuration-to-deployment pipeline through a structured, self-refining feedback loop comprising configuration generation, deployment, and maintenance stages. Evaluated across 180 tasks spanning Dask, Redis, and Ray, LADs improves deployment success rates from 22% with simple prompting to 68%, corrects 94% of runtime failures within three iterations, and generates production-ready configurations at a cost four orders of magnitude lower than a conventional developer.},
+  booktitle    = {Conference on Machine Learning and Systems (MLSys)},
+  year         = {2027},
+  note         = {Under Submission. First author.},
+  abstract     = {LADs is a six-agent framework for configuration, deployment, monitoring, and automated repair. Across 180 Dask, Redis, and Ray tasks, it achieves 68% deployment success and repairs 94% of runtime failures within three iterations.},
   selected     = {true},
   bibtex_show  = {true},
-  abbr         = {ICDCS}
+  abbr         = {MLSys},
+  html         = {https://samanbahzadkhan.github.io/projects/lads/},
+  pdf          = {LADS.pdf}
 }
 
-@article{khan2025semdpo,
-  title        = {Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization for Prompt Engineering},
-  author       = {Mohamed, Anas and Khan, Azal Ahmad and Wang, Xinran and Khan, Ahmad Faraz and Ge, Shuwen and Khan, Saman Bahzad and Ahmad, Ayaan and Anwar, Ali},
-  journal      = {ACL Rolling Review},
-  year         = {2025},
-  note         = {Under Review},
-  abstract     = {Sem-DPO is a variant of Direct Preference Optimization (DPO) that explicitly incorporates semantic consistency into the preference alignment process. By introducing per-sample semantic consistency weights, Sem-DPO prevents optimized prompts from drifting away from the user's original intent. We provide the first analytical bound on semantic drift for preference-tuned prompt generators and demonstrate 8-12% higher CLIP similarity and 5-9% higher human preference scores over standard DPO across three benchmarks and three language model backbones.},
+@inproceedings{khan2026skillgraph,
+  title        = {SkillGraph: Reusable Reasoning Skills from LLM Agent Traces},
+  author       = {Khan, Saman Bahzad and others},
+  booktitle    = {Conference on Machine Learning and Systems (MLSys)},
+  year         = {2027},
+  note         = {Under Submission. First author.},
+  abstract     = {SkillGraph is a GraphRAG-based skill graph for extracting and reusing diagnostic reasoning from agent trajectories. The project builds a database of reasoning traces for skill extraction and retrieval on new system incidents, and uses a process-level critic that evaluates reasoning quality rather than final outcomes alone.},
   selected     = {true},
   bibtex_show  = {true},
-  abbr         = {ACL ARR}
+  abbr         = {MLSys},
+  html         = {https://samanbahzadkhan.github.io/projects/skillgraph/}
+}
+
+@inproceedings{khan2026agentmemory,
+  title        = {Agent Memory: Storage and Retrieval of LLM Reasoning Traces at Scale},
+  author       = {Khan, Saman Bahzad and others},
+  booktitle    = {Conference on Machine Learning and Systems (MLSys)},
+  year         = {2027},
+  note         = {Under Submission},
+  abstract     = {An analysis of 535 queries across seven models finds reasoning traces ranging from under 1 KB to over 71 KB per query. The project develops co-location and indexing strategies for highly variable semantic reasoning workloads.},
+  selected     = {true},
+  bibtex_show  = {true},
+  abbr         = {MLSys},
+  html         = {https://samanbahzadkhan.github.io/projects/agent-memory/}
+}
+
+@inproceedings{khan2026federated,
+  title        = {Federated Skill Sharing for LLM Agents},
+  author       = {Khan, Saman Bahzad and others},
+  booktitle    = {Conference on Machine Learning and Systems (MLSys)},
+  year         = {2027},
+  note         = {Under Submission},
+  abstract     = {A federated framework in which clients share reusable skill templates and generalized reasoning patterns through a global indexed library while keeping private context and final adaptation local.},
+  selected     = {true},
+  bibtex_show  = {true},
+  abbr         = {MLSys},
+  html         = {https://samanbahzadkhan.github.io/projects/federated-skill-sharing/}
 }
