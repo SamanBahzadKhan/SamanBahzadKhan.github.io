@@ -2,55 +2,89 @@ cv:
   name: Saman Bahzad Khan
   label: CS Undergraduate & Researcher
   email: 27100111@lums.edu.pk
-  location: 
+  website: https://samanbahzadkhan.github.io/
+  location:
   image: ""
   summary: Computer Science undergraduate at LUMS, working on LLM-based systems, preference optimization, and AI-driven automation. Working toward a PhD application in December 2026.
 
   social_networks:
     - network: LinkedIn
       username: saman-khan-546836302
+    - network: GitHub
+      username: SamanBahzadKhan
 
   sections:
     Education:
-      - institution: Lahore University of Management Sciences (LUMS)
+      - institution: Lahore University of Management Sciences
         location: Lahore, Pakistan
         url: https://lums.edu.pk
         area: Computer Science
-        studyType: BS
+        studyType: B.S.
         start_date: 2023
         end_date: present
         highlights:
-          - "Relevant Coursework: Data Structures & Algorithms, AI/ML, Generative AI, Network Centric Computing, Operating Systems, Topics in LLMs"
+          - "Relevant Coursework: Data Structures & Algorithms, Operating Systems, AI/ML, Generative AI, Advanced GenAI, AI on edge devices, Network Centric Computing, Topics in LLMs"
 
     Experience:
-      - company: University of Minnesota (Remote)
-        position: Research Collaborator
-        location: Remote
+      - position: "Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization"
+        url: /projects/sem-dpo/
+        company: "Advisors: Dr. Ali Anwar, University of Minnesota · Dr. Ahmad Faraz Khan, Google"
         start_date: 2024
-        end_date: present
-        summary: "Mentor: Dr. Ali Anwar"
+        end_date: 2025
+        summary: Published at ACL 2026
         highlights:
-          - "LADs: Leveraging LLMs for AI-Driven DevOps (First Author, submitted to ICDCS '26) — agentic LLM framework automating the configuration-to-deployment pipeline through a self-refining feedback loop; improved deployment success from ≤22% to 68% across 180 tasks."
-          - "Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization for Prompt Engineering (submitted to ACL ARR) — DPO variant with semantic consistency weights; achieved 8-12% higher CLIP similarity and 5-9% higher human preference scores over standard DPO."
+          - Developed a weighted Direct Preference Optimization approach that reduces semantic drift during automated prompt optimization and established a theoretical bound on drift in preference-tuned prompt generators.
+          - "Improved CLIP similarity by 8–12% and human-preference scores by 5–9% over standard DPO across three benchmarks and three language-model backbones; preferred in 82.2% of pairwise human evaluations."
+
+      - position: "LADs: Leveraging LLMs for AI-Driven DevOps"
+        url: /projects/lads/
+        company: "Advisors: Dr. Ali Anwar, University of Minnesota · Dr. Ali R. Butt, Virginia Tech"
+        start_date: 2025
+        end_date: 2026
+        summary: First author. Submission at MLSys 2027
+        highlights:
+          - "Co-developed a six-agent framework for configuration, deployment, monitoring, and automated repair; achieved 68% deployment success across 180 Dask, Redis, and Ray tasks and repaired 94% of runtime failures within three iterations."
+          - Adapted two existing systems as baselines and substantially redesigned the evaluation and technical presentation to better establish LADs' gains over prior approaches.
+
+      - position: "SkillGraph: Reusable Reasoning Skills from LLM Agent Traces"
+        url: /projects/skillgraph/
+        company: "Advisors: Dr. Tianyin Xu, University of Illinois Urbana-Champaign · Dr. Ali Anwar, University of Minnesota"
+        start_date: 2026
+        end_date: present
+        summary: First author. Submission at MLSys 2027
+        highlights:
+          - "Leading development of a GraphRAG-based skill graph for extracting and reusing diagnostic reasoning from agent trajectories; built a database of reasoning traces for skill extraction and retrieval on new system incidents."
+          - Identified shortcut behavior that corrupts learned skills and designed a process-level critic that evaluates reasoning quality rather than final outcomes alone.
+
+      - position: "Agent Memory: Storage and Retrieval of LLM Reasoning Traces at Scale"
+        url: /projects/agent-memory/
+        company: "Advisor: Dr. Ali Anwar, University of Minnesota"
+        start_date: 2026
+        end_date: present
+        summary: Submission at MLSys 2027
+        highlights:
+          - "Analyzed 535 queries across seven models, finding reasoning traces from under 1 KB to over 71 KB per query; developing co-location and indexing strategies for highly variable semantic reasoning workloads."
+
+      - position: Federated Skill Sharing for LLM Agents
+        url: /projects/federated-skill-sharing/
+        company: "Advisors: Dr. Ali R. Butt, Virginia Tech · Dr. Ahmad Faraz Khan, Google"
+        start_date: 2026
+        end_date: present
+        summary: Submission at MLSys 2027
+        highlights:
+          - Developing a federated framework where clients share reusable skill templates and generalized reasoning patterns through a global indexed library while keeping private context and final adaptation local.
 
       - company: Systems Limited
-        position: Software Engineering Intern
+        position: Summer Intern
         location: Lahore, Pakistan
         start_date: 2025-06
         end_date: 2025-07
+        summary: Jun 2025 – Jul 2025
         highlights:
-          - Implemented an end-to-end ERP pipeline for a construction company, automating procurement, project tracking, and reporting using Microsoft Dynamics and the Microsoft enterprise application suite.
+          - Built an ERP workflow automating procurement, project tracking, and reporting for a construction company using Microsoft Dynamics.
 
     Publications:
-      - title: "LADs: Leveraging LLMs for AI-Driven DevOps"
-        authors:
-          - Saman Bahzad Khan
-          - et al.
-        publisher: "ICDCS 2026 (Under Review)"
-        releaseDate: 2025
-        summary: An agentic LLM framework that automates the full configuration-to-deployment pipeline through a self-refining feedback loop, improving deployment success from ≤22% to 68% across distributed systems.
-
-      - title: "Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization for Prompt Engineering"
+      - title: "Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization"
         authors:
           - Anas Mohamed
           - Azal Ahmad Khan
@@ -60,48 +94,76 @@ cv:
           - Saman Bahzad Khan
           - Ayaan Ahmad
           - Ali Anwar
-        publisher: "ACL ARR (Under Review)"
-        releaseDate: 2025
-        summary: A DPO variant that injects per-sample semantic consistency weights to prevent optimized prompts from drifting from user intent, achieving 8-12% higher CLIP similarity over standard DPO.
+        publisher: ACL 2026
+        releaseDate: 2026
+        summary: A weighted Direct Preference Optimization approach that reduces semantic drift during automated prompt optimization, with 8–12% higher CLIP similarity and 5–9% higher human-preference scores over standard DPO.
+
+      - title: "LADs: Leveraging LLMs for AI-Driven DevOps"
+        authors:
+          - Saman Bahzad Khan
+          - et al.
+        publisher: MLSys 2027 (Under Submission)
+        releaseDate: 2026
+        summary: A six-agent framework for configuration, deployment, monitoring, and automated repair. First author. 68% deployment success across 180 Dask, Redis, and Ray tasks, and 94% of runtime failures repaired within three iterations.
+
+      - title: "SkillGraph: Reusable Reasoning Skills from LLM Agent Traces"
+        authors:
+          - Saman Bahzad Khan
+          - et al.
+        publisher: MLSys 2027 (Under Submission)
+        releaseDate: 2026
+        summary: A GraphRAG-based skill graph for extracting and reusing diagnostic reasoning from agent trajectories, with a process-level critic for reasoning quality. First author.
+
+      - title: "Agent Memory: Storage and Retrieval of LLM Reasoning Traces at Scale"
+        authors:
+          - Saman Bahzad Khan
+          - et al.
+        publisher: MLSys 2027 (Under Submission)
+        releaseDate: 2026
+        summary: Analysis of 535 queries across seven models, with reasoning traces from under 1 KB to over 71 KB per query, toward co-location and indexing for variable semantic workloads.
+
+      - title: Federated Skill Sharing for LLM Agents
+        authors:
+          - Saman Bahzad Khan
+          - et al.
+        publisher: MLSys 2027 (Under Submission)
+        releaseDate: 2026
+        summary: A federated framework for sharing reusable skill templates and generalized reasoning patterns while keeping private context and final adaptation local.
+
+    Projects:
+      - name: LLM Affordability Index (LLAI)
+        url: /projects/llai/
+        summary: Developed a scenario-aware affordability framework incorporating model performance, deployment cost, and regional accessibility; evaluated across five LLMs.
+      - name: CAPS Counselling Appointment System
+        url: /projects/caps/
+        summary: Built a Firebase-backed Android scheduling platform with Google Meet integration, AI assistance, and double-booking prevention.
 
     Skills:
       - name: Programming Languages
         icon: fa-solid fa-code
-        keywords: "Python, C++, C, Java, HTML, Assembly, MATLAB"
+        keywords:
+          - Python
+          - Java
+          - C++
+          - C
+          - TypeScript
+          - SQL
 
-      - name: Frameworks & Tools
+      - name: Tools and Libraries
         icon: fa-solid fa-wrench
-        keywords: "PyTorch, TensorFlow, Hugging Face, LangChain, Ollama, scikit-learn, Pandas, Git, Docker, SQL, LaTeX, Linux/Ubuntu"
+        keywords:
+          - PyTorch
+          - TensorFlow
+          - Hugging Face
+          - LangChain
+          - Ollama
+          - scikit-learn
+          - Pandas
+          - Git
+          - Docker
+          - Dask
+          - Linux
 
-    Volunteer:
-      - company: LUMS Career Services Office
-        position: Campus Ambassador
-        location: Lahore, Pakistan
-        start_date: 2025-02
-        end_date: 2025-02
-        highlights:
-          - Helped convene and organize the LUMS Annual Career Fair for 20+ employer partners and 1,000+ student attendees.
-
-      - company: LUMS Women In Computing Society
-        position: Member
-        location: Lahore, Pakistan
-        start_date: 2023
-        end_date: 2024
-        highlights:
-          - Organized Girls' Coding Camp, Women in Computing Hackathon, and Grad App Wars.
-
-      - company: LUMS SPADES
-        position: Member Media
-        location: Lahore, Pakistan
-        start_date: 2023
-        end_date: 2024
-        highlights:
-          - Assisted in organizing Hackathons and PsiFi (400+ students); covered events and interviewed start-up CEOs for Radio LUMS × SPADES.
-
-      - company: SPADES Smog Detection Project
-        position: Research Volunteer
-        location: Lahore, Pakistan
-        start_date: 2025-01
-        end_date: 2025-01
-        highlights:
-          - Conducted data-driven air quality assessments across Lahore integrating PM2.5 readings with GIS mapping and Python pipelines.
+    Additional Experiences:
+      - bullet: Organized Girls' Coding Camp, Women in Computing Hackathon, Grad App Wars, and PsiFi through LUMS Women in Computing and SPADES.
+      - bullet: Reviewed papers for IEEE and ACM conferences; conducted Lahore air-quality analysis using PM2.5, GIS mapping, and Python.
