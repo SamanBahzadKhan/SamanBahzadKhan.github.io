@@ -395,12 +395,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
+          section: "News",},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
@@ -420,6 +415,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-agent-memory",
+          title: 'Agent Memory',
+          description: "Storage and retrieval of LLM reasoning traces at scale. MLSys 2027 submission.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/agent-memory/";
             },},{id: "projects-caps",
           title: 'CAPS',
           description: "Firebase-backed Android scheduling platform for counselling appointments.",
