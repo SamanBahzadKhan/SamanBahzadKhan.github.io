@@ -395,12 +395,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
+          section: "News",},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
@@ -420,6 +415,11 @@ ninja.data = [{
           description: "Firebase-backed Android scheduling platform for counselling appointments.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/caps/";
+            },},{id: "projects-federated-skill-sharing",
+          title: 'Federated Skill Sharing',
+          description: "Federated sharing of skill templates while keeping private context local. MLSys 2027 submission.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/federated-skill-sharing/";
             },},{id: "projects-lads",
           title: 'LADs',
           description: "Six-agent framework for configuration, deployment, monitoring, and repair. First author, MLSys 2027 submission.",
