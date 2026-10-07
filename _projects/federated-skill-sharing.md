@@ -11,7 +11,7 @@ related_publications: true
 
 Summer 2026 – Present
 
-Advisors: Dr. Ali R. Butt (Virginia Tech) and Dr. Ahmad Faraz Khan (Google)
+Advisors: [Dr. Ali R. Butt](https://scholar.google.com/citations?user=oqux_wcAAAAJ&hl=en) (Virginia Tech) and [Dr. Ahmad Faraz Khan](https://scholar.google.com/citations?user=VjGylKsAAAAJ&hl=en) (Google)
 
 Developing a federated framework where clients share reusable skill templates and generalized reasoning patterns through a global indexed library while keeping **private context and final adaptation local**.
 
