@@ -11,7 +11,7 @@ related_publications: true
 
 Fall 2025 – Spring 2026 · First author
 
-Advisors: Dr. Ali Anwar (University of Minnesota) and Dr. Ali R. Butt (Virginia Tech)
+Advisors: [Dr. Ali Anwar](https://scholar.google.com/citations?user=o3eOVbgAAAAJ&hl=en) (University of Minnesota) and [Dr. Ali R. Butt](https://scholar.google.com/citations?user=oqux_wcAAAAJ&hl=en) (Virginia Tech)
 
 Co-developed a six-agent framework for configuration, deployment, monitoring, and automated repair.
 
