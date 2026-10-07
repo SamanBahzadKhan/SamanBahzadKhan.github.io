@@ -11,7 +11,7 @@ related_publications: true
 
 Summer 2026 – Present
 
-Advisor: Dr. Ali Anwar (University of Minnesota)
+Advisor: [Dr. Ali Anwar](https://scholar.google.com/citations?user=o3eOVbgAAAAJ&hl=en) (University of Minnesota)
 
 Analyzed **535 queries across seven models**, finding reasoning traces from **under 1 KB to over 71 KB per query**. The project develops co-location and indexing strategies for highly variable semantic reasoning workloads.
 
