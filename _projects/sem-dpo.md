@@ -11,7 +11,7 @@ related_publications: true
 
 Summer 2024 – Spring 2025
 
-Advisors: Dr. Ali Anwar (University of Minnesota) and Dr. Ahmad Faraz Khan (Google)
+Advisors: [Dr. Ali Anwar](https://scholar.google.com/citations?user=o3eOVbgAAAAJ&hl=en) (University of Minnesota) and [Dr. Ahmad Faraz Khan](https://scholar.google.com/citations?user=VjGylKsAAAAJ&hl=en) (Google)
 
 Developed a weighted Direct Preference Optimization approach that reduces semantic drift during automated prompt optimization, and established a theoretical bound on drift in preference-tuned prompt generators.
 
