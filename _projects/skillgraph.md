@@ -11,7 +11,7 @@ related_publications: true
 
 Summer 2026 – Present · First author
 
-Advisors: Dr. Tianyin Xu (University of Illinois Urbana-Champaign) and Dr. Ali Anwar (University of Minnesota)
+Advisors: [Dr. Tianyin Xu](https://scholar.google.com/citations?user=h5ZyE5wAAAAJ&hl=en) (University of Illinois Urbana-Champaign) and [Dr. Ali Anwar](https://scholar.google.com/citations?user=o3eOVbgAAAAJ&hl=en) (University of Minnesota)
 
 Leading development of a GraphRAG-based skill graph for extracting and reusing diagnostic reasoning from agent trajectories.
 
